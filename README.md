@@ -6,7 +6,7 @@ In this Folder you will place all of your final group projects. Please complete 
     
     a. Maydelis K. Minaya
     
-    b.Shuai Xie
+    b. Shuai Xie
    
    
 2. Change the name of the R Package folder to be the name of your R package. 
