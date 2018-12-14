@@ -3,8 +3,8 @@
 In this Folder you will place all of your final group projects. Please complete the following steps.
 
 1. List the name of all Group Members below:
-    a. ________________________________
-    b. ________________________________
+    a. Maydelis K. Minaya
+    b.Shuai Xie
     c. ________________________________
     d. ________________________________
     e. ________________________________
