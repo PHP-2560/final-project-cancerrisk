@@ -1,0 +1,20 @@
+---
+title: "cancerrisk"
+author: "Maydelis K. Minaya & Shuai Xie"
+date: "12/15/2018"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{cancerrisk_vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+With the incidence of cancer at an all-time high, it is imperative to learn about the associated risk factors in order to be better equipped to take proactive measures. According to the United States National Institute of Health (NIH), an estimated 1,735,350 new cases of cancer will be diagnosed in the U.S. each year and 609,640 people will die from the disease in 2018. Given the unsettling implications of this data action is required. We have created a tool for researchers to build cancer prediction models. Our package includes basic functions that are user friendly and highly interactive. These functions will help investigators build cancer prediction models because they take into account numerous variables relevant to cancer models. The cancerrisk package has 5 main functions that users can incorporate into their cancer risk assessment models.
+
+Statistics from: <https://www.cancer.gov/about-cancer/understanding/statistics>
