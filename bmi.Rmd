@@ -1,0 +1,44 @@
+---
+title: "cancerrisk"
+author: "Maydelis K. Minaya and Shuai Xie"
+date: "12/16/18"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+With the incidence of cancer at an all-time high, it is imperative to learn about the associated risk factors in order to be better equipped to take proactive measures. 
+
+According to the United States National Institute of Health (NIH), an estimated 1,735,350 new cases of cancer will be diagnosed in the U.S. each year and 609,640 people will die from the disease in 2018. Given the unsettling implications of this data action is required. 
+
+We have created a tool for researchers to build cancer prediction models. 
+
+Our package includes basic functions that are user friendly and highly interactive. These functions will help investigators build cancer prediction models because they take into account numerous variables relevant to cancer models. 
+
+The cancerrisk package has 5 main functions that users can incorporate into their cancer risk assessment models.
+
+Statistics from: <https://www.cancer.gov/about-cancer/understanding/statistics>
+
+## Functions in cancerrisk
+
+Functions provided in the package aim to help people caluclate different health indicators and have a better idea of the health related issue
+
+* `BMI()` calcualte the BMI based on height and weight 
+
+* `lungcancer()` help people to estimate their absolute risk of getting luncaner in 5 years
+
+* `colon_cancer_male()` help male to estimate their risk of getting colon cancer in next ten years
+
+* `colon_cancer_female()` help female to estimate their risk of getting colon cancer in next ten years
+
+* `lungplot()` generates a ggplot2 graph to show the relationship between expousre and outcome depending different region in United States
+
+
