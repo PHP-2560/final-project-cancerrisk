@@ -2,6 +2,8 @@ library(ggplot2)
 lung <- read.csv("lung.csv")
 lung
 
+lungplot <- function(x) {
+  
 ggplot(lung, aes(x=Smokerate, y=Cancerrate, color=Year)) +
   geom_point(size=10) +
   xlab("Smoking Rate") +
@@ -9,4 +11,5 @@ ggplot(lung, aes(x=Smokerate, y=Cancerrate, color=Year)) +
   ggtitle("Smoking is Directly Correlated to Lung Cancer") +
   facet_grid(~Region)+
   geom_smooth(method = "lm") +
-  theme_classic()
+  theme_bw()
+}
