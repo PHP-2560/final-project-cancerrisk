@@ -1,0 +1,15 @@
+Package: cancerrisk
+Type: Package
+Title: Great Cancer Assessment Tool
+Version: 0.1.0
+Author: Shuai Xie and Maydelis K. Minaya
+Maintainer: Shuai Xie and Maydelis K. Minaya <shuai_xie@brown.edu>
+Description: Contains one function to calculate BMI based on height and weight.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
